@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html, body, #root {
+  height: 100dvh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+
+#root {
+    font-family: "Montserrat", sans-serif;
+    background-color: #35333D;
+    display: flex;
+    flex-direction: row; /* cambia da column a row */
+    flex-wrap: nowrap;
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+}
+
+.header {
+    background-color: #686375;
+    width: 15vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    z-index: 2;
+}
+
+main {
+    height: 100vh;
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #E0E0E0;
+}
+
+
+nav i {
+    font-size: 30px;
+    color : #E0E0E0;
+    border-radius: 50%;
+}
+
+nav a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+nav .active {
+    background-color: #627CF5;
+    border: 1px solid white;
+}
+
+.house {
+    overflow-y: scroll;
+}
+
+.city-btn {
+    font-size: 0.8rem;
+    margin: 0.3rem;
+    padding: 0.3rem
+}
+
+.cityImg-container {
+    text-align: center;
+    background-color: transparent;
+    border: 0;
+    border-radius: 50%;
+}
+
+
+.cityImg {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-bottom: 30px;
+}
+
+.cityImg:hover {
+   border: 5px solid gainsboro
+}

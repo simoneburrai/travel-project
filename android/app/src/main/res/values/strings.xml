@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ComfyTravel</string>
+    <string name="title_activity_main">ComfyTravel</string>
+    <string name="package_name">com.comfytravel.app</string>
+    <string name="custom_url_scheme">com.comfytravel.app</string>
+</resources>
